@@ -23,12 +23,12 @@
 
 %% define compiler options
 % 1. define what you want to compile
-cpp_pathes      = {'region_saliency_mex.cpp','region_saliency.cpp','ext/segment-image.cpp'};
+cpp_pathes      = {'bar.cpp'};
 % 2. optional arguments
-include_pathes  = {'/usr/local/include/opencv/','/usr/local/include/'};
-lib_pathes      = {'/usr/local/lib/'};
-lib_names       = {'opencv_core','opencv_imgproc'};
-ext_defines     = {'__MEX'};
+include_pathes  = {};
+lib_pathes      = {};
+lib_names       = {};
+ext_defines     = {};
 other_options   = {'-O'};
 % 3. further settings
 arch            = computer('arch'); % target architecture
