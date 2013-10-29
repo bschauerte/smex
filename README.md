@@ -10,4 +10,4 @@ Simply change the variables in the **define compiler options** code section.
 ## Contact
 
 Boris Schauerte  
-Karlsruhe Institute of Technology  
+htpp://schauerte.me/
